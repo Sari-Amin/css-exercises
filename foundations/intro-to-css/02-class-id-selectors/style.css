@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+.redclass{
+    background-color: #d88492;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+.font24{
+    font-size: 24px;
+}
+
+#greenid{
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#blueid{
+    color: #0000ff;
+    font-size: 36px;
+}
