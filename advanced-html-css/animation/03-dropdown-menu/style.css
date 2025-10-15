@@ -30,3 +30,23 @@ ul.dropdown-menu li:hover {
 }
 
 
+/* Solution */
+
+@keyframes slide-down{
+  from{
+    transform: scaleY(0);
+  }
+  75%{
+    transform: scaleY(1.1); 
+  }
+  to{
+    transform: scaleY(1);
+  }
+}
+
+.dropdown-menu{
+  transform-origin: top;
+  animation: slide-down .4s ease-in-out;
+}
+
+
